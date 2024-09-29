@@ -1,0 +1,15 @@
+// Printing numbers from 1 to 25 in ascending order
+let ascending = 1;
+console.log("Numbers from 1 to 25 in Ascending Order:");
+while (ascending <= 25) {
+    console.log(ascending);
+    ascending++;
+}
+
+// Printing numbers from 25 to 1 in descending order
+let descending = 25;
+console.log("Numbers from 25 to 1 in Descending Order:");
+while (descending >= 1) {
+    console.log(descending);
+    descending--;
+}

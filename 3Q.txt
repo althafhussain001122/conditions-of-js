@@ -1,0 +1,46 @@
+Loops are fundamental programming constructs that allow you to execute a block of code repeatedly based on a specific condition. They are essential for tasks that require repetition, such as iterating through arrays, processing items in collections, or performing repeated calculations. Using loops can help simplify your code, reduce redundancy, and improve efficiency.
+
+Types of Loops
+1) For Loop
+2) While Loop
+3) Do-While Loop
+
+1. For Loop
+Syntax:
+for (initialization; condition; increment/decrement) {
+    // code to execute
+}
+
+Example:
+for (let i = 0; i < 5; i++) {
+    console.log("Iteration: " + i);
+}
+
+
+2. While Loop
+Syntax:
+while (condition) {
+    // code to execute
+}
+
+Example:
+let i = 0;
+while (i < 5) {
+    console.log("Iteration: " + i);
+    i++;
+}
+
+3. Do-While Loop
+Syntax:
+do {
+    // code to execute
+} while (condition);
+
+
+Example:
+let i = 0;
+do {
+    console.log("Iteration: " + i);
+    i++;
+} while (i < 5);
+

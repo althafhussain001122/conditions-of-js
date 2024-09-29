@@ -1,0 +1,29 @@
+Conditional statements are programming constructs that allow you to execute different blocks of code based on whether a specified condition is true or false. They enable decision-making in your code, allowing it to react dynamically to various situations.
+
+Syntax
+The basic structure of a conditional statement typically includes:
+
+If Statement: Executes a block of code if a specified condition is true.
+Else Statement: Executes a block of code if the condition in the if statement is false.
+Else If Statement: Checks another condition if the previous if or else if conditions are false.
+
+Syntax:
+
+if (condition) {
+    // code to execute if condition is true
+} else if (another_condition) {
+    // code to execute if another_condition is true
+} else {
+    // code to execute if all conditions are false
+}
+
+EXAMPLE:
+let temperature = 30;
+
+if (temperature > 30) {
+    console.log("It's a hot day.");
+} else if (temperature < 15) {
+    console.log("It's a cold day.");
+} else {
+    console.log("It's a mild day.");
+}

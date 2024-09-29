@@ -1,0 +1,19 @@
+// Function to determine grade based on marks
+function getGrade(marks) {
+    if (marks > 90) {
+        return "Grade: A";
+    } else if (marks >= 70 && marks <= 90) {
+        return "Grade: B";
+    } else if (marks >= 50 && marks < 70) {
+        return "Grade: C";
+    } else {
+        return "Grade: F";
+    }
+}
+
+// Prompt the user to enter the student's marks
+const marks = parseInt(prompt("Enter the student's marks:"));
+
+// Call the function and display the grade
+const grade = getGrade(marks);
+alert(grade);

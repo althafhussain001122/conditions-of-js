@@ -1,0 +1,18 @@
+function generateNumbersBetween(start, end) {
+    // Ensure start is less than end
+    if (start > end) {
+        console.log("Start number must be less than or equal to the end number.");
+        return;
+    }
+
+    console.log(`Numbers between ${start} and ${end}:`);
+    for (let i = start; i <= end; i++) {
+        console.log(i);
+    }
+}
+
+// Example usage
+const start = parseInt(prompt("Enter the starting number:"));
+const end = parseInt(prompt("Enter the ending number:"));
+
+generateNumbersBetween(start, end);
